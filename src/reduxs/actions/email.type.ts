@@ -1,0 +1,6 @@
+
+export enum constants {
+    FETCH_EMAIL_REQUEST,
+    FETCH_EMAIL_SUCCESS,
+    FETCH_EMAIL_FAILURE
+}

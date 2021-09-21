@@ -1,0 +1,16 @@
+#sequencer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+#sequencer canvas{
+    object-fit: contain;
+}
+
+@media screen and (max-width: 766px) {
+    #sequencer{
+        display: none;
+    }
+}
