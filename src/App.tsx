@@ -9,13 +9,12 @@ import Loading from "./shared/Loading"
 
 toast.configure();
 export default function App() {
-
     return (
         <React.Fragment>
+            <Header />
             <Router>
-                <Header />
                 <Suspense fallback={<Loading />}>
-                    <Route />
+                    <Route></Route>
                 </Suspense>
             </Router>
             <ToastContainer 

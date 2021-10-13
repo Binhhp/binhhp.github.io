@@ -22,9 +22,8 @@ export default function About() {
                                 <i className="fas fa-chevron-right"></i>
                             </span>
                         </p>
-                        <p>I'm a Web Developer Fresher from Hai Phong who is addicted to learning and loves working with people. I have knowledge in web site building and customization.</p>
+                        <p className="des">I'm a Web Developer Fresher from Hai Phong who is addicted to learning and loves working with people. I have knowledge in web site building and customization.</p>
                         <div className="contact--me">
-                            <p><i className="fas fa-mobile-alt mr-2"></i>+84 988401921</p>
                             <p><i className="far fa-envelope mr-2"></i>binhhp20@gmail.com</p>
                         </div>
                         <div className="connect--me">
@@ -49,7 +48,7 @@ export default function About() {
                                 download rel="noopener noreferrer"
                                 style={{background: `#de5254`}}>
                                 <i className="far fa-address-card"></i>
-                                Download Cv
+                                Download CV
                             </a>
                         </div>
                     </div>

@@ -1,29 +1,23 @@
 
 html {
-    font-family: Poppins,Helvetica,Arial,Lucida,sans-serif !important;
+    font-family: Poppins,Helvetica,Arial,Lucida,sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
 }
 body, h1, h2, h3, h4, h5, h6, p, span {
     margin: 0;
-    font-family: Poppins,Helvetica,Arial,Lucida,sans-serif !important;
+    font-family: Poppins,Helvetica,Arial,Lucida,sans-serif;
 }
 #binhhp {
-    background-color: #FFFFFF;
+    background-color: #FFF;
     position: relative;
 }
 .binhhp-main--wrapper{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     width: 100%;
     height: auto;
-    opacity: 0;
-    z-index: 3;
-    transition: opacity 666ms cubic-bezier(.666,0,.333,1);
+    display: none;
+    transition: display 666ms cubic-bezier(.666,0,.333,1);
 }
 a {
     background-color: transparent
@@ -2408,10 +2402,6 @@ a.text-danger:focus,a.text-danger:hover {
     display: inline-block
 }
 
-.menu__content {
-    position: relative;
-    top: 10%;
-}
 .form__label svg,.section--outcomes .section__background {
     position: absolute;
     left: 50%;
@@ -3015,7 +3005,7 @@ svg {
     padding: 50px 0;
 }
 .section--bg{
-    padding: 50px 30px;
+    padding: 30px;
 }
 .section img {
     -webkit-backface-visibility: hidden;
@@ -3209,10 +3199,13 @@ svg {
     padding: 0.3125rem 0
 }
 
-.heading {
-    display: block;
-    text-align: center;
-    padding: 30px 0;
+.heading, .col-lg-8, .about--me__image{
+    animation: heading 2s normal cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes heading {
+    from{opacity: 0; transform: translateY(100%);}
+    to{opacity: 1;transform: translateY(0%);}
 }
 
 .heading:before {
@@ -3240,16 +3233,14 @@ svg {
     position: relative;
     z-index: 1;
     text-align: left;
-    font-size: 66px;
+    font-size: 60px;
     font-weight: 600;
     font-family: Inter,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 }
+
 @media screen and (max-width: 766px) {
     .heading__title{
         font-size: 26px;
-    }
-    .heading {
-        height: 30px;
     }
     .section--bg{
         padding-bottom: 0 !important;
@@ -3260,9 +3251,6 @@ svg {
         margin-bottom: 10px;
         font-size: 17px;
     }
-}
-.heading{
-    height: 50px;
 }
 .heading__title {
     margin: 0 0 5px;

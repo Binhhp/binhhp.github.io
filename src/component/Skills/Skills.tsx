@@ -47,7 +47,7 @@ export default function Skills() {
                                 <ul>
                                     <li>Git</li>
                                 </ul>
-                                <h5>IDE</h5>
+                                <h5>IDEs</h5>
                                 <ul>
                                     <li>Visual Studio</li>
                                     <li>Visual Studio Code</li>
@@ -57,7 +57,7 @@ export default function Skills() {
 								<div className="icon-skill object-icon">
                                     <div style={{backgroundPosition: `0 0`, height: `133px`, width: `211px`}}></div>
                                 </div>
-								<p>Database & Control & IDE</p>
+								<p>Database & Control & IDEs</p>
 							</div>
                         </div>
                     </div>
@@ -68,8 +68,11 @@ export default function Skills() {
                                 <ul>
                                     <li>Understanding about OOP</li>
                                     <li>Rest API</li>
+                                    <li>Entity Framework & LinQ</li>
+                                    <li>Dependency Injection</li>
+                                    <li>Identity & Access Control</li>
                                     <li>Design Patterns</li>
-                                    <li>DI Container</li>
+                                    <li>Clean Architecture</li>
                                     <li>Docker</li>
                                 </ul>
                             </div>

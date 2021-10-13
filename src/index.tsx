@@ -14,7 +14,7 @@ ReactDOM.render(
         <App />
       </Provider>
     </div>
-    <Loader></Loader>
+    <Loader />
   </React.Fragment>,
   document.getElementById('binhhp')
 );

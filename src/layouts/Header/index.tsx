@@ -6,23 +6,14 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   const hanlderMenu = () => {
-    
-      const elementWrapper = document.getElementById('wrapper') as Element;
-      if(!elementWrapper?.classList.contains('menu--is-active')) {
-          document.getElementById('menu')?.classList.add('menu--is-active');
-          elementWrapper.classList.add('menu--is-active');
-      }
-      else {
-          document.getElementById('menu')?.classList.remove('menu--is-active');
-          elementWrapper.classList.remove('menu--is-active');
-      }
-      
       setOpen(!open);
   }
 
   return(
       <React.Fragment>
-        <div className="menu" id="menu">
+        <div 
+          className={`menu${open ? ' menu--is-active' : ''}`} 
+          id="menu">
           <div className="menu__content">
             <a className="ajax menu__link" href="#about">
               <h3 className="menu__title">About</h3>
@@ -69,9 +60,9 @@ export default function Header() {
               </h6>
             </a>
           </div>
-          <h6 className="menu__good-people">
-            Copy @2021 - built by binhhp
-          </h6>
+          <div className="menu__good-people">
+            <span>Copy @2021 - built by binhhp</span>
+          </div>
         </div>
         <span 
           onClick={hanlderMenu} 
