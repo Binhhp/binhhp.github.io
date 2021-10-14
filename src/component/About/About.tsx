@@ -6,16 +6,9 @@ export default function About() {
     return (
         <section id="about" className="section section--about">
             <div className="container-fluid">
-                <div className="col-xs-12">
-                    <div className="heading">
-                        <h1 className="heading__title">
-                            About
-                        </h1>
-                    </div>
-                </div>
-                <div className="about__content section--bg">
+                <div className="about-content section--bg">
                     <div className="col-lg-8">
-                        <p className="h2">Hi, I'm Binh! 
+                        <p className="h2">Hi. I'm Binh! 
                             <span className="coder">
                                 <i className="fas fa-chevron-left"></i>
                                 dev
@@ -52,9 +45,15 @@ export default function About() {
                             </a>
                         </div>
                     </div>
-                    <div className="col-lg-4">
-                        <div className="about--me__image">
+                    <div className="col-lg-4 position-relative">
+                        <div className="about-me--image">
                             <img src="https://avatars.githubusercontent.com/u/55707606?v=4" alt="Avatar me"/>
+                        </div>
+                        <div className="about-me--blck">
+                            <div className="item-blck bg-lt"></div>
+                            <div className="item-blck bg-rt"></div>
+                            <div className="item-blck bg-br"></div>
+                            <div className="item-blck bg-bl"></div>
                         </div>
                     </div>
                 </div>

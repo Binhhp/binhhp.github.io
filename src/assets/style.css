@@ -1,13 +1,29 @@
 
+@font-face {
+    font-family: Biotif-Regular;
+    src: url(./fonts/biotif.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Bogart;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    src: url(./fonts/bogart-med.woff2) format("woff2"),url(./fonts/bogart-med.woff2) format("woff2")
+}
+
 html {
-    font-family: Poppins,Helvetica,Arial,Lucida,sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
 }
-body, h1, h2, h3, h4, h5, h6, p, span {
+
+body, p, span {
     margin: 0;
-    font-family: Poppins,Helvetica,Arial,Lucida,sans-serif;
+    font-family: Biotif-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Bogart,Helvetica,Arial,Lucida,sans-serif;
 }
 #binhhp {
     background-color: #FFF;
@@ -286,8 +302,8 @@ output {
 }
 
 .container-fluid {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 100%;
 }
 
 .row {
@@ -2850,7 +2866,6 @@ body {
 }
 
 .h6,h6 {
-    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 10px;
@@ -3001,8 +3016,14 @@ svg {
 }
 
 .section {
-    position: relative;
+    display: flex;
     padding: 50px 0;
+}
+
+@media (min-width: 768px) {
+    .section{
+        min-height: 100vh;
+    }
 }
 .section--bg{
     padding: 30px;
@@ -3235,7 +3256,6 @@ svg {
     text-align: left;
     font-size: 60px;
     font-weight: 600;
-    font-family: Inter,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 }
 
 @media screen and (max-width: 766px) {

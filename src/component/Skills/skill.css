@@ -8,6 +8,7 @@
     height: 100%;
     position: relative;
     height: 550px;
+    width: 100%;
 }
 
 .skill-box ul{
@@ -16,7 +17,30 @@
 .skill-box h5{
     font-weight: bold;
 }
-
+.skill__content{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 1025px) {
+    .skill__content .col-md-4{
+        width: 50%;
+        max-width: 50%;
+        flex: none;
+    }
+}
+@media (max-width: 768px) {
+    .skill__content{
+        display: block;
+    }
+    .skill__content .col-md-4{
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+    }
+}
 .image-container{
     position: absolute;
     bottom: 25%;
@@ -24,7 +48,7 @@
     width: 100%;
     transform: translate3d(0,0,0);
     transition: all .3s cubic-bezier(.215,.61,.355,1) .1s;
-    left: 10px;
+    left: 0px;
 }
 .image-container p{
     font-weight: 550;
@@ -45,6 +69,7 @@
     width: 242px;
     margin: auto;
 }
+
 .description{
     text-align: center;
     display: block;

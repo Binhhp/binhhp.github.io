@@ -10,7 +10,7 @@ export default function Skills() {
                     <h1 className="heading__title">Skills</h1>
                     <h6 className="heading__descript">Have a knowledge about</h6>
                 </div>
-                <div className="row skill__content section--bg">
+                <div className="skill__content section--bg">
                     <div className="col-md-4">
                         <div className="skill-box">
                             <div className="description">
@@ -70,7 +70,7 @@ export default function Skills() {
                                     <li>Rest API</li>
                                     <li>Entity Framework & LinQ</li>
                                     <li>Dependency Injection</li>
-                                    <li>Identity & Access Control</li>
+                                    <li>Identity & Access Manager</li>
                                     <li>Design Patterns</li>
                                     <li>Clean Architecture</li>
                                     <li>Docker</li>

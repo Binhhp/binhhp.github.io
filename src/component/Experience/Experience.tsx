@@ -27,16 +27,18 @@ export default function Experience() {
                                 contentArrowStyle={{ borderRight: '7px solid  #7851a9' }}
                                 date="11/2019 - 2/2020"
                                 iconStyle={{ background: '#7851a9', color: '#fff' }}
-                                icon={<WorkingSVG />}
-                            >
+                                icon={<WorkingSVG />}>
                                 <h3 className="vertical-timeline-element-title section--experience-title">
-                                    Backend Asp.Net Developer
+                                    Backend Asp.Net Developer Intern
                                 </h3>
                                 <p className="section--experience-subtitle">
                                     <strong>Company:</strong>&nbsp;Công ty TNHH Công nghệ và truyền thông 3i
                                 </p>
                                 <p className="section--experience-subtitle">
-                                    <strong>Main repository:</strong>&nbsp;Fresher Backend Asp.Net
+                                    <strong>Main repository:</strong>&nbsp;Backend Asp.Net Intern
+                                </p>
+                                <p className="section--experience-subtitle">
+                                    <strong>Technical:</strong>&nbsp;C#, Asp.Net Core 2.1, HTML, CSS, Ajax, Jquery, SQL, JSON
                                 </p>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
@@ -45,8 +47,7 @@ export default function Experience() {
                                 contentArrowStyle={{ borderRight: '7px solid  #2596be' }}
                                 date="2017 - 2021"
                                 iconStyle={{ background: '#2596be', color: '#fff' }}
-                                icon={<Bachelor />}
-                            >
+                                icon={<Bachelor />}>
                                 <h3 className="vertical-timeline-element-title section--experience-title">Bachelor’s Degree</h3>
                                 <p className="section--experience-subtitle">
                                     <strong>University:</strong>&nbsp;Universiry Of Transport And Communications
@@ -60,9 +61,8 @@ export default function Experience() {
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                                 iconStyle={{ background: '#c71585', color: '#fff' }}
-                                icon={<FamilySVG />}
-                            />
-                        </VerticalTimeline>
+                                icon={<FamilySVG />}/>
+                            </VerticalTimeline>
                     </div>
                 </div>
             </div>

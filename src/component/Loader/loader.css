@@ -210,13 +210,16 @@
     -ms-transform: translateX(-100%);
     transform: translateX(-100%)
 }
-
+.des--full{
+    --animationFont: 10s
+}
 .des--full .animation-loader{
     white-space: nowrap;
     overflow: hidden;
-    animation: changeFont 10s alternate cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: changeFont var(--animationFont) alternate cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 @keyframes changeFont {
+
     50%{
         font-size: 30000%;
     }
@@ -226,5 +229,16 @@
     98%{
         opacity: 0;
         display: none;
+    }
+}
+@media (max-width: 414px) {
+    .des--full{
+        --animationFont: 120s
+    }
+}
+
+@media (max-width: 768px) {
+    .des--full{
+        --animationFont: 30s
     }
 }

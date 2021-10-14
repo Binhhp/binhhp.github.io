@@ -1,3 +1,9 @@
+@media (min-width: 1280px) {
+    .vertical-timeline.vertical-timeline--two-columns{
+        width: 100%;
+    }
+}
+
 .vertical-timeline::before{
     background-color: rgb(243, 239, 239);
 }
@@ -7,13 +13,18 @@
 .vertical-timeline-element-date{
     color: black;
 }
+@media screen and (max-width: 766px){
+    .experience__content .vertical-timeline-element-date{
+        color: #fff;
+        opacity: 1;
+    }
+}
 .section--experience .section--experience-title{
     color: #fff;
 }
 .section--experience .section--experience-subtitle{
     color: #fff;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10px;
 }
 #experience{
