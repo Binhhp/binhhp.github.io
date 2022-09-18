@@ -74,6 +74,7 @@ export default function Skills() {
                                     <li>Design Patterns</li>
                                     <li>Clean Architecture</li>
                                     <li>Docker</li>
+                                    <li>Multi-Tenant</li>
                                 </ul>
                             </div>
                             <div className="image-container">

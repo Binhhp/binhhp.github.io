@@ -1,8 +1,8 @@
-import { Formik, Form, ErrorMessage, Field } from "formik";
+import { Formik, Form, Field } from "formik";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { SendMail } from "reduxs/apis/send_mail";
 import * as Yup from 'yup';
-import { SendMail } from "../../../reduxs/apis/send_mail";
 
 export default function FormEmail({ hanlder }: any) {
 
@@ -49,7 +49,7 @@ export default function FormEmail({ hanlder }: any) {
 
                 validationSchema={validate}
                 
-                onSubmit={values => {
+                onSubmit={(values: any) => {
 
                     const message: IMessage = {
                         Destination: values.subtitle,
@@ -72,7 +72,7 @@ export default function FormEmail({ hanlder }: any) {
                                             placeholder=" "/>
                                     <label className="meeychat--subtitle__label" htmlFor="Subtitle">Subject Line</label>
                                 </div>
-                                <ErrorMessage className="error" component="div" name="subtitle" />
+                                {errors.subtitle && <div className="error">{errors.subtitle}</div>} 
                             </div>
                             <div className="meeychat__content">
                                 <div className="meeychat--subcontent__textarea">
@@ -82,7 +82,7 @@ export default function FormEmail({ hanlder }: any) {
                                         placeholder=" " />
                                     <label className="meeychat--subtitle__label" htmlFor="Subtitle">Content</label>
                                 </div>
-                                <ErrorMessage className="error" component="div" name="content" />
+                                {errors.content && <div className="error">{errors.content}</div>}
                             </div>
                             <div className="meeychat__footer">
                                 {

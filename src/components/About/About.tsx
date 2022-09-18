@@ -1,5 +1,3 @@
-
-import MyCV from "../../assets/cv/CV_VuTatBinh.pdf";
 import "./about.css";
 
 export default function About() {
@@ -36,7 +34,7 @@ export default function About() {
                                <i className="fab fa-github"></i>
                                GitHub
                             </a>
-                            <a  href={MyCV} target="_blank" 
+                            <a  href="https://firebasestorage.googleapis.com/v0/b/pengineer-42d51.appspot.com/o/CV_VuTatBinh.pdf?alt=media&token=c9228238-0cdc-471b-a247-749b19e46356" target="_blank" 
                                 className="connect--me__link" 
                                 download rel="noopener noreferrer"
                                 style={{background: `#de5254`}}>

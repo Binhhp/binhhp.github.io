@@ -1,7 +1,7 @@
 
 import { lazy } from "react";
 import { Route, Switch } from "react-router";
-const Home = lazy(() => import("../component"))
+const Home = lazy(() => import("../components"))
 
 export default function route() {
 
