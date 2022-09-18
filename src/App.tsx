@@ -1,6 +1,5 @@
 ﻿import { BrowserRouter as Router } from 'react-router-dom';
 import Route from './routes/route';
-import './assets/style.css';
 import React, { Suspense } from 'react';
 import Header from './layouts/Header';
 import { toast, ToastContainer } from 'react-toastify'

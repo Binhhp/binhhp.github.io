@@ -1,4 +1,7 @@
-#face{
+import styled from 'styled-components'
+
+export const FacePersonalWrapper = styled.div`
+    #face{
     display: flex;
     flex-wrap: wrap;   
 }
@@ -13,3 +16,4 @@
     position: absolute;
     top: 0;
 }
+`

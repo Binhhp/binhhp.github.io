@@ -1,15 +1,16 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import "./experience.css";
 import Bachelor from "themes/svg/Bachelor";
 import WorkingSVG from "themes/svg/WorkingSVG";
 import FamilySVG from "themes/svg/FamilySVG";
 import MyInfoProvider from "configs";
+import { ExperienceWrapper } from './ExperienceStyled';
 
 export default function Experience() {
 
     return (
-        <section id="experience" className="section section--experience">
+        <ExperienceWrapper>
+            <section id="experience" className="section section--experience">
             <div className="container-fluid">
                 <div className="w-100">
                     <div className="col-xs-12">
@@ -78,5 +79,6 @@ export default function Experience() {
                 </div>
             </div>
         </section>
+        </ExperienceWrapper>
     )
 }

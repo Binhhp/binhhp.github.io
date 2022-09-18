@@ -1,4 +1,7 @@
-.show-project{
+import styled from 'styled-components'
+
+export const WorksWrapper = styled.div`
+    .show-project{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -146,3 +149,4 @@
     font-weight: 600;
     color: #2a2c31;
 }
+`

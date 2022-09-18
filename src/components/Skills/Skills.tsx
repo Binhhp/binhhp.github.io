@@ -1,9 +1,10 @@
-import "./skill.css";
+import { SkillWrapper } from "./SkillStyled";
 
 export default function Skills() {
 
     return (
-        <section id="skills" className="section section--skill">
+        <SkillWrapper>
+            <section id="skills" className="section section--skill">
         <div className="container-fluid">
             <div className="col-xs-12">
                 <div className="heading">
@@ -89,5 +90,7 @@ export default function Skills() {
                 </div>
             </div>
         </section>
+        </SkillWrapper>
+
     )
 }

@@ -1,4 +1,7 @@
+import styled from 'styled-components'
 
+export const SkillWrapper = styled.div`
+    
 .skill-box{
     cursor: pointer;
     border-radius: 20px;
@@ -115,3 +118,4 @@
 .skill-box:hover .image-container{
     transform: translate3d(0, 75%, 0);
 }
+`

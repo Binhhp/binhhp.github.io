@@ -1,4 +1,7 @@
-@media (min-width: 1280px) {
+import styled from 'styled-components'
+
+export const ExperienceWrapper = styled.div`
+    @media (min-width: 1280px) {
     .vertical-timeline.vertical-timeline--two-columns{
         width: 100%;
     }
@@ -32,3 +35,4 @@
     max-width: 100%;
     overflow: hidden;
 }
+`

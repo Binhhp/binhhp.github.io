@@ -73,6 +73,7 @@
     "@types/react-vertical-timeline-component": "^3.0.1",
     "@types/redux": "^3.6.0",
     "@types/redux-thunk": "^2.1.0",
+    "@types/styled-components": "^5.1.26",
     "@types/webpack-env": "^1.16.2",
     "core-js": "^3.11.0",
     "css-loader": "^5.2.4",
