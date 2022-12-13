@@ -1,5 +1,24 @@
 import { createGlobalStyle } from "styled-components";
+import FontMonumentRegular from "assets/fonts/MonumentExtendedRegular.woff";
+import FontMonumentUltrabold from "assets/fonts/MonumentExtendedUltrabold.woff";
+
 export default createGlobalStyle`
+    @font-face {
+    font-family: "monument extended";
+    font-style:normal;
+    font-weight:400;
+    src: local("Monument Extended"),
+        url(${FontMonumentRegular})
+        format("woff");
+    }
+    @font-face {
+    font-family: "monument extended";
+    font-style:normal;
+    font-weight:800;
+    src: local("Monument Extended"),
+        url(${FontMonumentUltrabold})
+        format("woff");
+    }
     html {
         font-family: Poppins,Helvetica,Arial,Lucida,sans-serif;
         -ms-text-size-adjust: 100%;

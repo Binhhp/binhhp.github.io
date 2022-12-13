@@ -24,8 +24,9 @@ export default function Experience() {
                     <div className="experience__content section__row section--bg">
                         <VerticalTimeline>
                             {
-                                MyInfoProvider.Experiences.slice(1, MyInfoProvider.Experiences.length).reverse().map(item => (
+                                MyInfoProvider.Experiences.slice(1, MyInfoProvider.Experiences.length).reverse().map((item, number) => (
                                     <VerticalTimelineElement
+                                        key={`experience-${number}`}
                                         className="vertical-timeline-element--work"
                                         contentStyle={{ background: `${item.background}`, color: `${item.background}` }}
                                         contentArrowStyle={{ borderRight: `7px solid  ${item.background}` }}
