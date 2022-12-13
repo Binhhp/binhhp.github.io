@@ -1,3 +1,4 @@
+import MyInfoProvider from "configs";
 import { SkillWrapper } from "./SkillStyled";
 
 export default function Skills() {
@@ -17,15 +18,11 @@ export default function Skills() {
                             <div className="description">
                                 <h5>Programing language</h5>
                                 <ul>
-                                    <li>C#</li>
-                                    <li>Javascript</li>
-                                    <li>HTML/CSS</li>
+                                {MyInfoProvider.Skills.ProgramingLanguage.map(item => <li>{item}</li>)}
                                 </ul>
                                 <h5>Platform &amp; Frameworks &amp; Libraries</h5>
                                 <ul>
-                                    <li>Asp.Net Core</li>
-                                    <li>ReactJS / Redux</li>
-                                    <li>OpenCV</li>
+                                {MyInfoProvider.Skills.PlatformFrameworksLibraries.map(item => <li>{item}</li>)}
                                 </ul>
                             </div>
                             <div className="image-container">
@@ -41,17 +38,15 @@ export default function Skills() {
                             <div className="description">
                                 <h5>Database</h5>
                                 <ul>
-                                    <li>MS SQL</li>
-                                    <li>Firebase</li>
+                                {MyInfoProvider.Skills.Database.map(item => <li>{item}</li>)}
                                 </ul>
                                 <h5>Version control</h5>
                                 <ul>
-                                    <li>Git</li>
+                                {MyInfoProvider.Skills.VersionControl.map(item => <li>{item}</li>)}
                                 </ul>
                                 <h5>IDEs</h5>
                                 <ul>
-                                    <li>Visual Studio</li>
-                                    <li>Visual Studio Code</li>
+                                {MyInfoProvider.Skills.IDEs.map(item => <li>{item}</li>)}
                                 </ul>
                             </div>
                             <div className="image-container">
@@ -67,15 +62,7 @@ export default function Skills() {
                             <div className="description">
                                 <h5>Knowledge</h5>
                                 <ul>
-                                    <li>Understanding about OOP</li>
-                                    <li>Rest API</li>
-                                    <li>Entity Framework & LinQ</li>
-                                    <li>Dependency Injection</li>
-                                    <li>Identity & Access Manager</li>
-                                    <li>Design Patterns</li>
-                                    <li>Clean Architecture</li>
-                                    <li>Docker</li>
-                                    <li>Multi-Tenant</li>
+                                    {MyInfoProvider.Skills.Knowledge.map(item => <li>{item}</li>)}
                                 </ul>
                             </div>
                             <div className="image-container">

@@ -38,5 +38,28 @@ export default class MyInfoProvider{
             color: "#fff",
             certifications: "Azure Data Engineer Associate"
         }
-    ]
+    ];
+    static Skills = {
+        ProgramingLanguage: ["C#", "Javascript", "HTML/CSS/SASS"],
+        PlatformFrameworksLibraries: ["Asp.Net Core", "ReactJS / Redux", "OpenCV"],
+        Database: ["MS SQL", "Firebase"],
+        VersionControl: ["Git", "SVN"],
+        IDEs: [
+            "Vim", 
+            "Visual Studio Code"
+        ],
+        Knowledge: [
+            "Understanding about OOP", 
+            "Multi Tenancy",
+            "Microservices",
+            "Rest API & Grpc & WCF", 
+            "Entity Framework & LinQ", 
+            "Autofac",
+            "Identity & Access Manager", 
+            "Design Patterns & Infrastructure", 
+            "Domain Driven Design", 
+            "Docker",
+            "Reverse Proxy"
+        ]
+    }
 }
