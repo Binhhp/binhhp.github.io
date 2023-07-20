@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.41eaeedc.chunk.css",
+    "main.css": "/static/css/main.73cd9f21.chunk.css",
     "main.js": "/static/js/main.b674049d.chunk.js",
     "main.js.map": "/static/js/main.b674049d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6bb1a148.js",
@@ -18,7 +18,7 @@
     "static/css/2.2e99a83d.chunk.css.map": "/static/css/2.2e99a83d.chunk.css.map",
     "static/css/3.a08119d7.chunk.css.map": "/static/css/3.a08119d7.chunk.css.map",
     "static/css/4.eebac697.chunk.css.map": "/static/css/4.eebac697.chunk.css.map",
-    "static/css/main.41eaeedc.chunk.css.map": "/static/css/main.41eaeedc.chunk.css.map",
+    "static/css/main.73cd9f21.chunk.css.map": "/static/css/main.73cd9f21.chunk.css.map",
     "static/js/2.0d566742.chunk.js.LICENSE.txt": "/static/js/2.0d566742.chunk.js.LICENSE.txt",
     "static/js/3.0c61b9cc.chunk.js.LICENSE.txt": "/static/js/3.0c61b9cc.chunk.js.LICENSE.txt",
     "static/media/MonumentExtendedRegular.7bbb087c.woff": "/static/media/MonumentExtendedRegular.7bbb087c.woff",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.6bb1a148.js",
     "static/css/3.a08119d7.chunk.css",
     "static/js/3.0c61b9cc.chunk.js",
-    "static/css/main.41eaeedc.chunk.css",
+    "static/css/main.73cd9f21.chunk.css",
     "static/js/main.b674049d.chunk.js"
   ]
 }
