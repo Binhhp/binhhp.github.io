@@ -48,10 +48,15 @@
 }
 @media (min-width: 1900px){
     #loader{
-        --fontSize: 6rem !important
+        --fontSize: 7rem !important
     }
 }
-@media (min-width: 1440px) and (max-width: 1899px){
+@media (min-width: 1540px) and (max-width: 1900px){
+    #loader{
+        --fontSize: 5.5rem !important
+    }
+}
+@media (min-width: 1440px) and (max-width: 1540px){
     #loader{
         --fontSize: 4.5rem !important
     }
