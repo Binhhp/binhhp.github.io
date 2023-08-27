@@ -10,6 +10,9 @@
   "author": "binhhp20@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "^9.79.3",
+    "@react-three/fiber": "^8.13.5",
     "axios": "^0.21.1",
     "formik": "^2.2.9",
     "react": "^17.0.2",
